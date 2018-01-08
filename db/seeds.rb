@@ -5,8 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Todo.create!(title: 'grocery shopping', notes: 'pickles, eggs, red onion')
+# Use rake db:reset to reset and re-migrate the database.
+
+Todo.create!(title: 'grocery shopping', notes: 'ramen, eggs, milk, chips')
 Todo.create!(title: 'wash the car')
-Todo.create!(title: 'register kids for school', notes: 'Register Kira for Ruby Junior High and Caleb for Rails High School')
-Todo.create!(title: 'check engine light', notes: 'The check engine light is on in the Tacoma')
-Todo.create!(title: 'dog groomers', notes: 'Take Pinky and Redford to the groomers on Wednesday the 23rd')
+Todo.create!(title: 'enroll in classes', notes: 'CS 61B, EE 16B, Scandinavian 106, Music 35')
+Todo.create!(title: 'go for a run')
+Todo.create!(title: 'hike Mt. Everest', notes: 'Pack warm clothes!')
+Todo.create!(title: 'sleep', notes: 'ASAP')

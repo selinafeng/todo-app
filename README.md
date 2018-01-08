@@ -3,7 +3,7 @@
 This is a clean to-do list created using Ruby on Rails and Bootstrap. 
 
 Home screen: 
-![Home screen]("app/assets/images/home.jpg")
+![Home screen](home.jpg)
 
 
 Hover over the title of the item in the todo list to view when it was created and modified:

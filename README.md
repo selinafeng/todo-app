@@ -23,7 +23,8 @@ Add a new note to the todo list by clicking the "New Todo" button at the bottom 
 
 Features still in progress: 
 
-* Login (using devise)
+* Browser notifications
+* Calendar (using Google calendar API)
 
 
 Adapted from LaunchSchool's Rails and BootStrap tutorial series: 
